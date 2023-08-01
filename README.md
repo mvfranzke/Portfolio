@@ -6,17 +6,12 @@ This is the 20th assignment or challenge for our bootcamp class. Our assignment 
 
 ## Table of Contents
 
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [Grouping Constructs](#grouping-constructs)
-- [Bracket Expressions](#bracket-expressions)
-- [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
-- [Summary](#summary)
-- [Application](#application)
-- [Resources](#resources)
+- [Installation](#installation)
+- [Usage](#usage)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Credits](#credits)
+- [License](#license)
 
 ## Installation
 None
