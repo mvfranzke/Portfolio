@@ -28,8 +28,9 @@ const Navbar = () => {
       </ul>
 
       {/* additional menu option */}
+      {/* set up ternatry operator, display FaBars if nav is not visible and disply x image for FaTimes */}
       <div onClick={handleClick} className="md:hidden z-10">
-        <FaBars />
+        {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile view menu */}
