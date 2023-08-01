@@ -55,8 +55,9 @@ const Navbar = () => {
         {/* social media icons */}
         <div className="flex fixed flex-col top-[35%] left-0">
           <ul>
-            <li>
-              <a href="/">LinkedIn <FaFacebook/>
+            <li className='w-[160px] h-[60px] flex justify-between items-center'>
+              <a className='flex justify-between items-center w-full text-gray-300'
+              href="/">LinkedIn <FaFacebook size={30}/>
               </a>
             </li>
           </ul>
