@@ -5,8 +5,10 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
+    <div className="bg-[#0a192f]">
+
+    </div>
+  ) 
 }
 
 export default Home
