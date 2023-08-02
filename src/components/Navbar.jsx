@@ -1,23 +1,19 @@
 import React, {useState} from 'react'
-
 import {
   FaBars,
   FaTimes,
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
-
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from '../assets/logo1.png'
+import {Link} from 'react-scroll'
 
 /* define Navbar variable and set up setter and default state to false, created handleClick function to display list when FaBars is clicked */
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
-
-
-
 
 
     return (
@@ -28,12 +24,11 @@ const Navbar = () => {
 
         {/* navbar menu options */}
         <ul className="hidden md:flex">
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Skills</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li>Resume</li>
+          <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+          <li><Link to="about" smooth={true} duration={500}>About Me</Link></li>
+          <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+          <li><Link to="portfolio" smooth={true} duration={500}>Portfolio</Link></li>
+          <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
         </ul>
 
         {/* additional menu option */}
