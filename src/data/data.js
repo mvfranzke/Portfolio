@@ -18,4 +18,18 @@ export const data = [
     github: "https://github.com/pakuhn93/NFT-marketplace"
     live: "https://lit-hamlet-47263-654396d0d713.herokuapp.com/marketplace"
   },
+  {
+    id: 3,
+    name: "Project 3",
+    image: Recipe,
+    github: ""
+    live: ""
+  },
+  {
+    id: 4,
+    name: "Project 4",
+    image: nft,
+    github: ""
+    live: ""
+  },
 ]
