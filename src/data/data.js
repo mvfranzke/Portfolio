@@ -11,4 +11,11 @@ export const data = [
     github: "https://github.com/brianlucla/Recipe-Generator-Based-on-Ingredient-Availability"
     live: "https://brianlucla.github.io/Recipe-Generator-Based-on-Ingredient-Availability/"
   },
+  {
+    id: 2,
+    name: "Network Fantasy Trading",
+    image: nft,
+    github: "https://github.com/pakuhn93/NFT-marketplace"
+    live: "https://lit-hamlet-47263-654396d0d713.herokuapp.com/marketplace"
+  },
 ]
