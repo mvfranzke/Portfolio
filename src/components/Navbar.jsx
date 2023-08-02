@@ -47,10 +47,10 @@ const Navbar = () => {
           }
         >
           <li className='py-6 text-4xl'><Link to="home" smooth={true} duration={500} onClick={handleClick}>Home</Link></li>
-          <li className='py-6 text-4xl'><Link to="about" smooth={true} duration={500}>About Me</Link></li>
-          <li className='py-6 text-4xl'><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-          <li className='py-6 text-4xl'><Link to="portfolio" smooth={true} duration={500}>Portfolio</Link></li>
-          <li className='py-6 text-4xl'><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+          <li className='py-6 text-4xl'><Link to="about" smooth={true} duration={500} onClick={handleClick}>About Me</Link></li>
+          <li className='py-6 text-4xl'><Link to="skills" smooth={true} duration={500} onClick={handleClick}>Skills</Link></li>
+          <li className='py-6 text-4xl'><Link to="portfolio" smooth={true} duration={500} onClick={handleClick}>Portfolio</Link></li>
+          <li className='py-6 text-4xl'><Link to="contact" smooth={true} duration={500} onClick={handleClick}>Contact</Link></li>
         </ul>
 
         {/* social media icons */}
