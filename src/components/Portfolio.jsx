@@ -18,6 +18,14 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* grip display */}
           {project.map((item, index) => (
+            <div
+              key={index}
+              style={{ backgroundImage: `url(${item.image})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md 
+              flex justify-center text-center items-center mx-auto content-div ">
+              {/* on hover style*/}
+              
+            </div>
           ))}
         </div>
       </div>
