@@ -3,6 +3,7 @@
 import Recipe from "../assets/projects/recipe.jpg";
 import nft from "../assets/projects/nft.jpg";
 
+/* data object to hold all project. Each item have properties such as id #, name of project, image, github repo link and deployed repo link */
 export const data = [
   {
     id: 1,
