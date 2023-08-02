@@ -16,7 +16,7 @@ const About = () => {
           Hi. I'm Michelle, thank you for visiting my page. Please take a look
           around.
         </p>
-        <div>
+        <div className="sm:text-right text-4xl font-bold">
           <p>
             My evolution from customer service and quality assurance to full
             stack development has been driven by a passion for growth, a
