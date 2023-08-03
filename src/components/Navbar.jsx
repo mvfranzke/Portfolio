@@ -10,6 +10,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from '../assets/logo1.png'
 import {Link} from 'react-scroll'
 
+
 /* define Navbar variable and set up setter and default state to false, created handleClick function to display list when FaBars is clicked */
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -125,6 +126,8 @@ const Navbar = () => {
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://github.com/mvfranzke"
+                target="blank"
+                rel="noopener noreferrer"
               >
                 GitHub <FaGithub size={30} />
               </a>
@@ -132,7 +135,9 @@ const Navbar = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
-                href="/"
+                href="mailto:michellevonfranzke@gmail.com"
+                target="blank"
+                rel="noopener noreferrer"
               >
                 Email <HiOutlineMail size={30} />
               </a>
@@ -140,7 +145,7 @@ const Navbar = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
-                href="/"
+                href=""
               >
                 Resume <BsFillPersonLinesFill size={30} />
               </a>
