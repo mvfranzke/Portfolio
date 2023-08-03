@@ -10,7 +10,6 @@ This is the 20th assignment or challenge for our bootcamp class. Our assignment 
 - [Usage](#usage)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
-- [Credits](#credits)
 - [License](#license)
 
 ## Installation
@@ -20,9 +19,9 @@ None
 
 URL of Github repository : https://github.com/mvfranzke/Portfolio
 
-URL of deployed application: 
+URL of deployed application: to follow
 
-![home screenshot](/Assets/heroku%20screenshot.jpg)
+![home screenshot](/Assets/screenshot.jpg)
 
 ## User Story
 
@@ -61,17 +60,6 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
-
-## Credits
-
-Please see below additional resources:
-
-* https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide
-* https://www.youtube.com/watch?v=IZGNcSuwBZs
-* https://webpack.js.org/concepts/
-* https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/
-
-
 
 ## License
 N/A
