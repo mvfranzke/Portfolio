@@ -15,7 +15,37 @@ This is the 20th assignment or challenge for our bootcamp class. Our assignment 
 
 ## Installation
 
+Create react file
 
+```npx create-react-app .```
+
+Install additional dependencies
+
+```npm i react-icons```
+
+```npm i react-scroll```
+
+Follow steps below to edit action property in Components > Contact.jsx
+
+Step 1. Create a free account in getform.io
+
+Step 2. Click create, enter your application name and timezone
+
+Step 3. Copy form endpoint link and enter inside ```<form action = " ">``` line 11
+
+Add additional settings in package.json for deployment:
+
+Set up homepage and set reference to your github repository, example below:
+
+```  "homepage": "https://mvfranzke.github.io/portfolio-react-app",```
+
+Create predeploy and deploy properties inside scripts:
+
+  ```  "predeploy": "npm run build",```
+  
+ ```   "deploy": "gh-pages -d build",```
+
+Finally, run ```npm run build``` and ```npm run deploy``` to update the site
 
 ## Usage
 
