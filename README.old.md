@@ -21,7 +21,7 @@ URL of Github repository : https://github.com/mvfranzke/Portfolio
 
 URL of deployed application: to follow
 
-![home screenshot](/Assets/screenshot.jpg)
+![home screenshot](src/assets/screenshot.jpg)
 
 ## User Story
 
