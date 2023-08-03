@@ -10,16 +10,18 @@ This is the 20th assignment or challenge for our bootcamp class. Our assignment 
 - [Usage](#usage)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
+- [Credits](#credits)
 - [License](#license)
 
 ## Installation
-None
+
+
 
 ## Usage
 
 URL of Github repository : https://github.com/mvfranzke/Portfolio
 
-URL of deployed application: to follow
+URL of deployed application: https://mvfranzke.github.io/portfolio-react-app/
 
 ![home screenshot](src/assets/screenshot.jpg)
 
@@ -60,6 +62,23 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
+
+## Credits
+
+Other resources used
+* https://tailwindcss.com/docs/installation
+* https://www.npmjs.com/package/react-icons
+* https://www.npmjs.com/package/react-scroll?activeTab=readme
+* https://create-react-app.dev/docs/deployment/
+
+Used below links to resolve github deployment issue
+* https://stackoverflow.com/questions/63964575/fatal-a-branch-named-gh-pages-already-exists
+* https://dev.to/singhshemona/how-to-fix-only-the-readme-is-appearing-when-you-ve-deployed-to-github-pages-1ga3
+
+Youtube Tutorials
+* https://www.youtube.com/watch?v=bmpI252DmiI
+* https://www.youtube.com/watch?v=22CxRxryQFE
+
 
 ## License
 N/A
