@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-react-app/static/css/main.a2e9f995.css",
-    "main.js": "/portfolio-react-app/static/js/main.61ff769f.js",
+    "main.js": "/portfolio-react-app/static/js/main.a3add35d.js",
     "static/media/nft.jpg": "/portfolio-react-app/static/media/nft.5b81a66fd0aacc59092a.jpg",
     "static/media/recipe.jpg": "/portfolio-react-app/static/media/recipe.2aa542ecbfbf5fef6c4a.jpg",
+    "static/media/adoptmeow.jpg": "/portfolio-react-app/static/media/adoptmeow.5064ae3c9112649d3da1.jpg",
     "static/media/reactImg.png": "/portfolio-react-app/static/media/reactImg.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio-react-app/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/logo1.png": "/portfolio-react-app/static/media/logo1.842eb93757a82a9d1e7f.png",
@@ -15,10 +16,10 @@
     "static/media/javascript.png": "/portfolio-react-app/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-react-app/index.html",
     "main.a2e9f995.css.map": "/portfolio-react-app/static/css/main.a2e9f995.css.map",
-    "main.61ff769f.js.map": "/portfolio-react-app/static/js/main.61ff769f.js.map"
+    "main.a3add35d.js.map": "/portfolio-react-app/static/js/main.a3add35d.js.map"
   },
   "entrypoints": [
     "static/css/main.a2e9f995.css",
-    "static/js/main.61ff769f.js"
+    "static/js/main.a3add35d.js"
   ]
 }
