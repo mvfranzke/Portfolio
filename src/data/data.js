@@ -2,6 +2,7 @@
 
 import Recipe from "../assets/projects/recipe.jpg";
 import nft from "../assets/projects/nft.jpg";
+import adaptmeow from "../assets/projects/adoptmeow.jpg";
 
 /* data object to hold all project. Each item have properties such as id #, name of project, image, github repo link and deployed repo link */
 export const data = [
@@ -23,9 +24,9 @@ export const data = [
   {
     id: 3,
     name: "Project 3",
-    image: Recipe,
-    github: "",
-    live: "",
+    image: adaptmeow,
+    github: "https://github.com/brianlucla/Adopt-MEOW",
+    live: "https://adopt-meow-bfe080711821.herokuapp.com/",
   },
   {
     id: 4,
@@ -47,5 +48,5 @@ export const data = [
     image: nft,
     github: "",
     live: "",
-  }
+  },
 ];
